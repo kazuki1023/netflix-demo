@@ -1,5 +1,4 @@
-
-const API_KEY = process.env.API_KEY // TMDBのAPIKeyを入れる
+const API_KEY = process.env.REACT_APP_API_KEY // TMDBのAPIKeyを入れる
 console.log(API_KEY)
 
 export const requests ={
