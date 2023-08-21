@@ -1,5 +1,5 @@
 
-const API_KEY = "xxx"; // TMDBのAPIKeyを入れる
+const API_KEY = process.env.API_KEY // TMDBのAPIKeyを入れる
 
 export const requests ={
     feachTrending:`/trending/all/week?api_key=${API_KEY}&language=en-us`,
